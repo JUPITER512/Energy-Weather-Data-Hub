@@ -88,6 +88,7 @@ def fetch_all_series(n_weeks):
     
 def main():
     smard=fetch_all_series(n_weeks=5)
+    
     print(smard.head())
     print(smard.dtypes)
     print(f"Total rows: {len(smard)}")
